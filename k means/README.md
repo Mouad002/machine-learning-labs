@@ -14,6 +14,7 @@ df.head()
 ```
 
 et on obtenir le resultat
+
 ![df.head()](assets/head-method.png)
 
 - apres on va obtenir les variable avec la method `df.nfo()` qui va retourner les types de variables et leur types.
@@ -46,15 +47,18 @@ plt.title('Annual Income Distribution')
 ```
 
 - et on aura la distribution suivant
-  ![annual income distribution](assets/annual-income-distribution.png)
+
+![annual income distribution](assets/annual-income-distribution.png)
 
 - on va voir la distributions des variable age et gendre.
-  ![](assets/age-and-gender-distributions.png)
+
+![age and gender distribution](assets/age-and-gender-distributions.png)
 - on peut conclure que les femme est un peu consommateur que les hommes.
 - on peut conclir aussi que la consommation est plus eleve pour les personnes au moyen age, et diminue avec l'augmentation de lage.
 
 - voici la distribution scatter
-  ![scatter plot](assets/scatter-plot.png)
+
+![scatter plot](assets/scatter-plot.png)
 
 ### 3. Préparation des données
 
@@ -93,7 +97,8 @@ for k in k_values:
 ```
 
 - on va appliquer l'algorithme avec plusieur nombre du `k` et on va ajouter des valeura a deux tableaus de metric pour chaque valeur de cas pour enfin choisir le meilleur valeur pour `k`.
-  ![best valeur k](assets/best-k.png)
+
+![best valeur k](assets/best-k.png)
 - l'orsqu'on print les valeurs des deux tableaux qui represente deux method different pour choisir le meilleur `k`. on peut voir d'appres les deux graphes que la valeur 7 est la meilleur.
 
 ### 5. Application et visualisation
@@ -125,7 +130,8 @@ loadings
 ### 6. Analyse des résultats
 
 - voici le resultat de clustering qu'on a obtenu d'apres le pca.
-  ![pca visualization](assets/pca-visualization.png)
+
+![pca visualization](assets/pca-visualization.png)
 - d'apres le resultat de `loadings` on peut conclure les seguement suivants:
 
   - 0 : middle income - high age high spending
@@ -137,3 +143,10 @@ loadings
 
 - on peut cibler les clients qui ont le revenu annual eleve mais le score de depense petit. en offrant des solds.
 - on peut fideliser les clients qui ont un montant annuel moyen est un score de depense eleve.
+
+
+
+
+
+
+
